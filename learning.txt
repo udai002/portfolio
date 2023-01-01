@@ -1,0 +1,25 @@
+react redux - 
+Action - it takes data from the react and send it to the reducer 
+Reducer - reducer update the data from the action and store it into the store 
+store - store update the state to the components
+
+firstly we have to create a rapper in redux for react app like provider.
+provider - it connects redux with reactjs.
+
+useDispatch -  used to dispatch a action or used to send a request to a action.
+
+useSelector - to get data from the redux 
+
+to create a fake api server -
+first we have to install json-server 
+json-server --watch db.json --port 3500
+
+saga is used to make api functions
+we use generate funtions in saga file 
+first we have to create a basic file using generate funtions
+second we have to call takeEvery from redux-saga 
+we have to pass constant and a funtion where we call fetch api funtion
+
+saga can be used as a funtion to
+
+

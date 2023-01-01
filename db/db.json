@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id":1,
+            "name":"Snake Game",
+            "description":"Snake game designed using HTML,CSS,javascript ",
+            "photo":"./snake1.png",
+            "languages":["HTML","CSS" ,"javascript"]
+    },
+        {
+            "id":2,
+            "name":"Ecommerce Website",
+            "description":"A Fully workable ecommerce website which will allow you to buy a sell the products",
+            "photo":"https://5.imimg.com/data5/AG/BQ/MY-19063733/samsung-mobile-500x500.png",
+            "languages":["HTML","CSS" ,"javascript","PHP"]
+    },
+        {
+            "id":3,
+            "name":"Marcho Fashions",
+            "description":"Marcho fashions is a website where you can buy trending fashion cloths",
+            "photo":"https://5.imimg.com/data5/AG/BQ/MY-19063733/samsung-mobile-500x500.png",
+            "languages":["HTML","CSS" ,"javascript","Reactjs"]
+    },
+        {
+            "id":4,
+            "name":"Grid Game",
+            "description":"A online game designed using HTML , CSS and Javascipt",
+            "photo":"https://5.imimg.com/data5/AG/BQ/MY-19063733/samsung-mobile-500x500.png",
+            "languages":["HTML","CSS" ,"javascript","Reactjs"]
+    }
+]
+}
