@@ -1,4 +1,4 @@
-import { ADD_TO_CART, EMPTY_CART, PROJECT_LIST, REMOVE_FROM_CART } from "./constant";
+import { ADD_TO_CART, EMPTY_CART, PROJECT_LIST, REMOVE_FROM_CART,CLOSE_SIDEBAR } from "./constant";
 
 export const addtoCart = (data)=>{
     console.warn("action called" , data);
@@ -30,4 +30,5 @@ export const projectData = ()=>{
         type:PROJECT_LIST
     }
 }
+
 

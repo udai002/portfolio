@@ -11,6 +11,7 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Service from './components/service';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
       <Route path='/' element={<App/>}/>
       <Route  path='/Blog' element = {<Blog/>} />
       <Route  path='/Projects' element = {<Project/>}/>
+      <Route  path='/service' element = {<Service/>}/>
       <Route  path='/Contact' element = {<Contact/>}/>
     </Routes>
     <Footer/>

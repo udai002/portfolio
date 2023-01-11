@@ -57,3 +57,43 @@ html{
 .sidebar{
   transition-duration: 1s;
 }
+#SiderBar{
+  animation: popanime 0.2s ease-in;
+}
+@keyframes popanime {
+  from{
+    transform: translate(-200px);
+    background-color: rgb(179, 179, 179);
+  }
+  to{
+    transform:translate(0px);
+  }
+}
+
+#Popper{
+  animation: signpop 0.2s ease-in ;
+  
+ 
+}
+
+@keyframes signpop {
+  from{
+
+    transform: translateY(-200px);
+    margin: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    /* top: 20%; */
+    
+    /* background-color: rgb(179, 179, 179); */
+  }
+  to{
+    transform:translateY(0px);
+    transform: translate(-50% , -50%);
+    left: 50%;
+    /* top: 20%; */
+    
+
+   
+  }
+}
